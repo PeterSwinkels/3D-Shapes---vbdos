@@ -1,4 +1,3 @@
-DECLARE SUB DisplayHelp ()
 OPTION BASE 0
 OPTION EXPLICIT
 
@@ -34,6 +33,7 @@ END TYPE
 
 DECLARE FUNCTION AdjustAngle (Angle AS DOUBLE, Increase AS INTEGER, Change AS DOUBLE) AS DOUBLE
 DECLARE FUNCTION GetMaximumCoordinate (Vertices() AS Vertex3dstr) AS DOUBLE
+DECLARE SUB DisplayHelp ()
 DECLARE SUB DrawShape ()
 DECLARE SUB InitializeDisplayParameters ()
 DECLARE SUB LoadShape (FilePath AS STRING)
